@@ -18,4 +18,9 @@ public class WebController {
    public String finalPage() {
       return "final";
    }
+   
+   @RequestMapping(value = "/staticPage", method = RequestMethod.GET)
+   public String redirectToStatuc() {
+      return "redirect:/pages/final.htm";
+   }
 }
