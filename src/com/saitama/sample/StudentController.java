@@ -11,7 +11,7 @@ import org.springframework.ui.ModelMap;
 public class StudentController {
    @RequestMapping(value = "/student", method = RequestMethod.GET)
    public ModelAndView student() {
-      return new ModelAndView("student", "command", new Student());
+      return new ModelAndView("student", "command", new Student(3,"d",4));
    }
    @RequestMapping(value = "/addStudent", method = RequestMethod.POST)
       public String addStudent(@ModelAttribute("SpringWeb")Student student, 

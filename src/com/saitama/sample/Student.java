@@ -4,8 +4,14 @@ public class Student {
 	   private Integer age;
 	   private String name;
 	   private Integer id;
-
-	   public void setAge(Integer age) {
+	   public Student(){}
+	   public Student(Integer age, String name, Integer id) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.id = id;
+	}
+	public void setAge(Integer age) {
 	      this.age = age;
 	   }
 	   public Integer getAge() {
