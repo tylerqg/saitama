@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="saitama:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="saitama-0.1.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="saitama:war exploded" />
+    </root>
+  </artifact>
+</component>
